@@ -10,21 +10,33 @@ body {
   font-family: system,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Lucida Grande","Arial","Verdana","Sans-Serif";
 }
 
-.container {
+.row {
   max-width: 70%;
+  min-height: 100%;
   margin: 10% auto;
-}
-
-
-div.column {
-  float: left;
-  width: 45%;
+  display:flex;
+  width: 70%;
+  height: 520px;
   background-color: rgba(255, 255, 255, 0.80);
 }
 
+
+
+.column {
+  float: left;
+}
+
+.right {
+  width: 40%;
+}
+
+.left {
+  width: 55%;
+}
+
 img {
-  width: 50%;
-  margin: auto;
+  width: 80%;
+  margin: 50px auto;
 }
 
 h1 {
